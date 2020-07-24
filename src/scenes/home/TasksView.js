@@ -1,10 +1,10 @@
 import React from 'react';
 import {View, ScrollView} from 'react-native';
 import {Text, Button} from 'react-native-elements';
-import {useAuth} from './AuthProvider';
-import {useTasks} from './TasksProvider';
-import {TaskItem} from './TaskItem';
-import {AddTaskView} from './AddTaskView';
+import {useAuth} from '../../utils/AuthProvider';
+import {useTasks} from '../../utils/TasksProvider';
+import {TaskItem} from '../../components/atoms/TaskItem';
+import {AddTaskView} from '../../utils/AddTaskView';
 
 // The Tasks View displays the list of tasks of the parent TasksProvider.
 // It has a button to log out and a button to add a new task.

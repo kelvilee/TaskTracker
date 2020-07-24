@@ -1,11 +1,9 @@
 import React from 'react';
 import {SafeAreaView, View, StatusBar} from 'react-native';
-import {Button} from 'react-native-elements';
-import {useAuth} from './AuthProvider';
-import {LogInView} from './LogInView';
-import {AuthProvider} from './AuthProvider';
-import {TasksProvider} from './TasksProvider';
-import {TasksView} from './TasksView';
+import {useAuth, AuthProvider} from './utils/AuthProvider';
+import {TasksProvider} from './utils/TasksProvider';
+import {TasksView} from './scenes/home/TasksView';
+import {LogInView} from './scenes/login/LogInView';
 
 const App = () => {
   return (

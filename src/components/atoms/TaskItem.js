@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Text, ListItem, Overlay} from 'react-native-elements';
-import {Task} from './schemas';
-import {useTasks} from './TasksProvider';
+import {Task} from '../../utils/schemas';
+import {useTasks} from '../../utils/TasksProvider';
 
 // Action sheet contains a list of actions. Each action should have a `title`
 // string and `action` function property. A "Cancel" action is automatically
